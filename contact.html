@@ -7,8 +7,14 @@
     <form action="https://orchardlabs-email.deno.dev" method="POST">
       <div class="g-recaptcha" data-sitekey="6LcI07woAAAAAIgsAWhUvtVAkzXkdvfJlRaE5C96"></div>
       <br/>
-      <input type="text" name="subject">
-      <input type="textarea" name="content">
+      <div>
+        <label for="subject">Subject</label>
+        <input type="text" name="subject">       
+      </div>
+      <div>
+        <label for="content">Message</label>
+        <input type="textarea" name="content">
+      </div>
       <input type="submit" value="Submit">
     </form>
   </body>
